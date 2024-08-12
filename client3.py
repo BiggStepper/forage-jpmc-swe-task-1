@@ -42,9 +42,9 @@ def getDataPoint(quote):
 def getRatio(price_a, price_b):
     """ Get ratio of price_a and price_b """
     """ ------------- Update this function ------------- """
-    # if(price_b == 0):
+    if(price_b == 0):
     #     # when the price_b is 0 avoid throwing ZeroDivisionErro
-    #     return
+        return
     return price_a / price_b
 
 
